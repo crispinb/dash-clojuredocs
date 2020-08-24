@@ -1,6 +1,6 @@
 {:deps {clj-http #:mvn{:version "3.7.0"}
         clj-time #:mvn{:version "0.11.0"}
-        com.billpiel/sayid #:mvn{:version "0.0.15"}
+        com.billpiel/sayid #:mvn{:version "0.0.19"}
         hickory #:mvn{:version "0.7.1"}
         me.raynes/fs #:mvn{:version "1.4.6"}
         org.clojure/clojure #:mvn{:version "1.8.0"}
@@ -9,7 +9,7 @@
         org.clojure/java.jdbc #:mvn{:version "0.7.3"}
         org.xerial/sqlite-jdbc #:mvn{:version "3.21.0"}
         pegasus #:mvn{:version "0.7.0"}
-        selmer #:mvn{:version "1.11.3"}}
+        selmer #:mvn{:version "1.12.28"}}
  :aliases {:run {:main-opts ["-m" "dash-clojuredocs.core"]}
            :runner
            {:extra-deps

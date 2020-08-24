@@ -19,6 +19,7 @@
 (def docset-dir "clojuredocs.docset")
 (def content-dir (str docset-dir "/Contents/"))
 (def document-dir (str content-dir "Resources/Documents/"))
+;; TODO: grab a generic temp dir
 (def tmp-dir "/tmp/clojuredocs/")
 
 (io/make-parents (str document-dir "/styles/tomorrow.css"))
